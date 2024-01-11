@@ -1,0 +1,524 @@
+---
+title: "Literature Review"
+author: "Cleyton Farias"
+date: last-modified
+format: 
+    html:
+        code-fold: true
+        embed-resources: true
+        toc: true
+        toc-depth: 1
+    docx: default
+execute: 
+  echo: false
+---
+
+# Highlights of Possible Drivers:
+
+- Socioeconomic status (employment, earnings, gini index, living in a disadvantaged neighborhood);
+- Educational levels;
+- Measures of heath status: mental health, drug abuse;
+- A measure of homelessness or foster care;
+- Previous incarceration/juvenile incarceration;
+- Changes in the legislation through time. This can be something directly related to incarceration or punishment rules. There is a paper showing that different types of punishments leads to different outcomes regarding recidivism;
+- Presence of Minority Groups;
+- Existence of programs aimed to help reintegration into society. There is a seminal paper showing that incarceration reduces recidivism for those who participates in labor training programs;
+- Measure of public assistance. There is a paper showing that incarceration increases dependence on public assistance;
+
+
+----
+
+
+# McCausland and Baldry (2023, International Journal of Crime, Justice and Social Democracy)
+
+- **Who does Australia Lock Up? The Social Determinants of Justice.**
+
+Despite the decline in crime, the incarceration rates of certain groups of people night remain high for some groups. This paper analysed data set containing information on 2,731 people who have been incarcerated in Australia and identified eight factors as “social determinants of justice”:
+
+- having been in out of home (foster) care;
+- receiving a poor school education;
+- being Indigenous;
+- having early contact with police;
+- having unsupported mental health and cognitive disability;
+- problematic alcohol and other drug use;
+- experiencing homelessness or unstable housing;
+- coming from or living in a disadvantaged location;
+
+
+# Martin et al (2021, Australian Housing and Urban Research Institute Limited)
+
+- **Exiting prison with complex support needs: the role of housing assistance.**
+
+This report investigates the effect of public housing on post-release pathways. 
+
+It compares 623 people who received a public housing tenancy at some point after prison with a similar number of people who were eligible for public housing but received private rental assistance only.
+
+On a range of measures, the public housing group had better criminal justice outcomes.
+
+# Neil and Carmichael (2015, Sociological Inquiry)
+
+- **The Use of Incarceration in Canada: A Test of Political and Social Threat Explanations on the Variation in Prison Admissions across Canadian Provinces, 2001–2010**
+
+This study investigates which factors contribute to explain the variation in imprisonment observed over time across Canadian provinces. 
+
+After accounting for several measures including charge rates, the results show that Canadian incarceration rates are largely driven by **ethnic threat**: the size of the Aboriginal and visible minority populations across each province are the most significant determinants of the variation in punishment.
+
+## What is the data?
+
+- prison admissions per 100,000 residents from Canadian Centre for Justice Statistics’ archives;
+- measured variations in crime across Canadian provinces using
+charge rates for all criminal offenses;
+- measured *minority threat* as proportional representation of Aboriginal in each province;
+- A measure of the ideological position of the political
+party in power was also included;
+- Measure Income inequality with  Gini coefficient;
+
+## What is the statistical strategy?
+
+**Fixed-effects panel analysis** with ten-year annual time series with data for all ten provinces between 2001 and 2010.
+
+
+
+# Factors That Influence Incarcerations Rates Report (2008)
+
+The purpose of this paper was to identify the principal factors that influence incarceration rates in Georgia. 
+
+- *Law*: 
+    - Statutes influence both the crime rate and the rate of incarceration. Changes in the legislation can influence the trend of incarceration.
+
+- *Environment*: 
+    - socioeconomic status is related to criminal behavior. This includes employment, educational level;
+    - neighborhood in which a person resides can be a major driver: people from economically depressed neighborhoods are more prone to engage in criminal activities;
+    - personal associations may have the greatest influence.
+    - Health level: The link between substance abuse and crime is well documented, as well as, Mental health problems that are often associated with substance abuse and crime. 
+
+- *Programs*:
+    - Rehabilitative Services: Numerous studies have found that prisoners who participate in programs while in prison have
+lower recidivism rates than those who do not participate in such programs.
+
+
+----
+
+# Papers on Causal Inference:
+
+
+# Kling (2006, AER)
+
+- **INCARCERATION LENGTH, EMPLOYMENT, AND EARNINGS**
+
+Kling (2006, AER) study the <u>effect of incarceration length on labor
+outcomes</u>. Using various research designs, including randomly assigned
+judges in a IV framework, <u>he founds no evidence of a negative effect
+of incarceration length on employment or earnings</u>.
+
+
+# Doyle (2008, JPE)
+
+- **CHILD PROTECTION AND ADULT CRIME: USING INVESTIGATOR ASSIGNMENT TO ESTIMATE CAUSAL EFFECTS OF FOSTER CARE**
+
+### What's the question?
+This paper investigates the effect of foster care on adult crime outcomes. 
+
+### What's the main result?
+He found that  children that are placed on foster care are three times more 
+likely to commit crime when adults.
+
+### What's is the identification strategy?
+
+The empirical strategy exploits  the randomization of child protection cases to 
+investigators and use it in a IV design.
+
+
+# Di Tella and Schargrodsky (2013, JPE)
+
+- **CRIMINAL RECIDIVISM AFTER PRISON AND ELECTRONIC MONITORING**
+
+### What's the question?
+They study the effect of the electronic monitoring on criminal 
+recidivism in <u>Argentina</u>.
+
+### What's the main result?
+Using electronic monitoring reduces recidivism.
+
+### What's the identification strategy?
+
+Detainees are randomly assigned to judges who must decide if they are sent to 
+prison until trial or released with electronic monitoring device. They exploit
+this design by using random assignment of judges in an instrumental variable framework.
+
+
+
+
+
+
+
+# Aizer and Doyle (2015, QJE)
+
+- **JUVENILE INCARCERATION, HUMAN CAPITAL, AND FUTURE CRIME: EVIDENCE FROM RANDOMLY ASSIGNED JUDGES**
+
+### What's the question?
+This paper investigates  the effect of juvenile incarceration on high school
+completion and recidivism when adults.
+ 
+### What's the main result?
+
+The authors found juvenile incarceration reduces high school completion rates and
+increases adult recidivism.
+
+### What's the data used?
+
+Using a sample of 35,000 juvenile offenders over 10-year period, 
+
+### What's the identification Strategy?
+
+The paper exploits incarceration tendency of randomly assigned judges to criminal
+cases to construct an instrument for incarceration in a IV.
+
+# Mueller and Smith (2015, Unpublished)
+
+- **THE CRIMINAL AND LABOR MARKET IMPACTS OF INCARCERATION**
+
+
+## What's the main question?
+
+This paper investigates the impact of incarceration on criminal behavior and labor market activity in **Texas, US**.
+
+
+## What's the main result?
+
+The results indicate that incarceration:
+
+- Increases the frequency and severity of recidivism;
+- Worsens labor market outcomes;
+- <u> Strengthens dependence on public assistance </u>. 
+
+
+
+## What's the identification strategy?
+
+The research design leverages the random assignment of criminal defendants to
+courtrooms as a source of exogenous variation. The courts are staffed by judges and
+prosecutors who differ in their propensity to incarcerate. 
+
+
+#  Bhuller et al (2018, NBER WP)
+
+- **INCARCERATION SPILLOVERS IN CRIMINAL AND FAMILY NETWORKS**
+
+## What's the main questions?
+
+They study the effect of incarceration spillovers in criminal networks and brother
+networks. 
+
+
+## What's the main result?
+
+They find that when a criminal network member is incarcerated, their peer's probability of being charged with a future crime decreases by 51 percentage points over the next 4 years. 
+
+Likewise, having an older brother incarcerated reduces the probability his 
+younger brother will be charged with a crime by 32 percentage points over the 
+next 4 years.
+
+
+
+## What's the data?
+
+They merge several administrative data sources to construct a census of all 
+crimes, criminal court cases and incarceration spells in Norway for the period 
+2005 to 2016. 
+
+They link these records for all defendants in Norway to similarly rich panel 
+data for criminal network members and brothers.
+
+They define criminal groups based on the existence of a network link up to third order for joint criminal charges in the past.
+
+
+
+## What's the identification strategy?
+
+They exploit the random assignment of criminal cases to judges who 
+systematically vary in how likely they are to send a defendant to prison. 
+They use this exogenous variation as an instrument.
+
+Their  measure of judge stringency is the average incarceration rate in all other cases a judge handles.
+
+
+
+
+# Bhuler et al (2018, AEA PP) 
+
+- **Intergenerational Effects of Incarceration**
+
+## What's the main question?
+
+They study the effect of father's incarceration on children in **Norway**.
+
+## What's the main result?
+
+First, they show the effect of incarceration for those who are father:
+
+- negative effect for employment (measured as ever employed within 36 months);
+- no effect for recidivism (measured as ever charge with crime within 36 months);
+
+Next, they turn into the effect of father's incarceration on children:
+
+- no effect on child's own criminal (measures as ever charged with at least one crime in the ten year period);
+- no effect on performance in school;
+
+
+## What's the data?
+
+Information on all court cases between 2005 and 2014 comes from the Norwegian
+Courts Administration. Link this information with administrative data that 
+contain complete records up to 2016 for all criminal charges, including the 
+type of crime and date of a crime. Link these datasets with administrative 
+registers containing demographic information from Statistics Norway for every resident. A key advantage of the Norwegian registry data is that we can link 
+children to their parents.
+
+Estimation sample: around 35,000
+ 
+## What's the identification strategy?
+
+Exploit the random assignment of judges who differ in their propensity to send defendants to prison. 
+
+Their measure of judge stringency is the  leave-out mean judge incarceration rate 
+in all other cases a judge has handled including both past and future confession
+and non-confession cases between 2005 and 2014. This variable serves as an 
+instrument for parental incarceration.
+
+
+# Dobbie (2018, NBER WP)
+
+- **THE INTERGENERATIONAL EFFECTS OF PARENTAL INCARCERATION**
+
+## What is the main question?
+
+They estimate the effect of parental incarceration on children's 
+outcome in **Sweden**.
+
+## What is the main result?
+
+They find that the incarceration of parent in childhood leads to
+increases in teen crime and pregnancy, and decrease in early-life
+employment. 
+
+Specifically, parental incarceration leads to:
+
+- 9.9 percentage points (41.8\%) increase in teen convictions;
+- 6.0 percentage points (200\%) increase in teen pregnancies;
+- 16.5% percentage points (23.7\%) decrease in employment by age 20.
+
+High school graduation are **not** impacted by parental incarceration.
+
+They also find the adverse effects of parental incarceration are concentrated among the *most disadvantaged families*.
+
+## What is the data?
+
+Several administrative data, in which they can link through unique personal identification for each individual.
+
+Information on criminal cases come from Swedish National Council for Crime Prevention 1973-2010.
+
+They merge this information with family linkages in the register from Statistics Sweden.
+
+Then, they merge all these information to the LISA register provided by Statistics Sweden. The LISA data contains rich longitudinal data that includes outcomes for every Swedish resident from 1990 to 2010. 
+
+The final estimation sample contains **45,425** cases from 604 sections and 55,324 children from 32,455 families.
+
+
+## What is the identification strategy?
+
+**Instrumental variable** design: they use a **residualized, leave-out measure of judge stringency** that accounts for **court-by-year, court-by-age and court-by-crime-type fixed effects** as an instrument for the incarceration of a parent in childhood. 
+
+# Billings (2018, WP)
+
+- **PARENTAL ARRESTS AND INCARCERATION: HOW DOES IT IMPACT THE CHILDREN?**
+
+## What is the main question?
+
+They estimate the impact of parental incarceration on children in the **North Carolina, US**.
+
+## What is the main result?
+
+He finds a positive and significant benefit from parental incarceration on education outcomes. These are **short-run** effects.
+
+## What is the data?
+
+- pupil records: Charlotte-Mecklenburg Schools (1999-2011);
+- arrest records: Mecklenburg Country C (1998-2011);
+- Mecklenburg County jail records (1998-2011);
+- North Carolina State Prison Records (1998-2011).
+
+Link is done using last names and addresses.
+
+
+## What is the identification strategy?
+
+He uses temporal variation when a parent is incarcerated versus when a parent is only arrested in a **event study design**.
+
+
+# Huttenen et al (2019, WP) 
+
+- **SHARED PUNISHMENT? THE IMPACT OF CRIMINAL SENTENCES OF PARENTS ON CHILD AND PARTNER OUTCOMES**
+
+## What is the main question?
+
+They estimate the effect of parental fines and incarceration on children in **Finland**.
+
+## What is the main result?
+
+They found **no significant result** of the effect of parental fines or parental incarceration on children and on partners on a variety of outcomes. 
+
+## What is the data used?
+
+Court data from 2000-2015. Link the defendants with their children using a set of administrative data in Finland.
+
+Estimation sample is around 90,000 and varies across outcomes.
+
+
+## What is the identification strategy?
+
+**instrumental variable**: exploit the random assignment of judges to cases and construct a measure of stringency to use as instrument. The design is similar to literature. 
+
+
+
+
+
+
+# Huttenen et al (2020, WP)
+
+- **THE CRIME LADDER: ESTIMATING THE IMPACT OF DIFFERENT PUNISHMENTS ON DEFENDANT OUTCOMES**
+
+## What is the main question?
+
+They estimate the impact of three types of punishments (fines, probation and prison) on defendant's recidivism and labor market outcomes in **Finland**.
+
+## What is the main result?
+
+They find that:
+
+- **fines**:
+    - increase criminal charges in the 1-2 years after sentencing  (although there is a significant decrease in 3-5 years);
+    - no effect on employment;
+    - no effect on earnings;
+- **probation**:
+    - no effect on recidivism;
+    - no effect on employment;
+    - no effect on earnings;
+- **prison**:
+    - decrease in recidivism in the the first year and in the first 2 years after sentencing (driven by incapacitation);
+    - no effect on employment;
+    - decrease in earnings in the first year and in the first 2 years after sentencing,
+
+In summary, mixed or no result.
+
+## What is the data used?
+
+Court data from 2000-2015. Link the defendants using a set of administrative data in Finland.
+
+Estimation sample is around 170,000 and varies across outcomes.
+
+## What is the identification strategy?
+
+**instrumental variable**: exploit the random assignment of judges to cases and construct a measure of stringency to use as instrument. The design is similar to literature. 
+
+
+# Arteaga (2021, RESTAT)
+
+- **PARENTAL INCARCERATION AND CHILDREN'S EDUCATIONAL ATTAINMENT**
+
+## What is the main question?
+
+She estimates the effect of parental incarceration on children's 
+educational attainment in **Colombia**.
+
+## What is the main result?
+
+Parental incarceration increased education by 0.78 for children. 
+With an average of 7.7 years, this effects corresponds to a 10\%
+increase.
+
+## What is the data used?
+
+Link sociodemographic data on households from SISBEN (country's 
+census of low-income population) to criminal record and public school enrollment for years 2005-2016.
+
+She uses SISBEN to obtain two information: (1) identify parent-child link; (2) with the parents' ID collected in (1), scrape the criminal record of them.
+
+In Colombia, criminal record from **convicted defendants** are available online. Each criminal record includes the name and NIN of the defendant, crime, date of crime,
+sentence information, and the court type and number that handled the case.
+
+Criminal record is complemented with **anonymized** records from Attorney's Office. This is the universe of criminal cases (cases ended with or without conviction). This data is used to construct the conviction stringency.
+
+Finally, she uses administrative records of public school enrollment to construct a measure of educational attainment.
+
+Around 43,000 observartions.
+
+
+## What is the identification strategy?
+
+**Instrumental variable**:  instrument is constructed using exogenous variation from the random assignment of cases to judges with different propensities to convict and incarcerate defendants.
+
+
+> **First paper** to provide evidence of the effect of parental incarceration on children in a **developing country**.
+
+# Norris et al (2021, AER)
+
+- **THE EFFECTS OF PARENTAL AND SIBLINGS INCARCERATION: EVIDENCE FROM OHIO**
+
+
+## What is the main question?
+
+They estimate the effect of parental  and sibling incarceration on children in **Ohio, US**.
+
+## What is the main result?
+
+They find that parental incarceration has beneficial effects on
+children:
+
+- **short-run effect**: no statistical significance on academic performance (test scores, GPA, likelihood of grade repetition);
+- **medium-run effect**: decreases the likelihood a child is charged with a crime, convicted or incarcerated before age 25;
+- **long-run effect**: increases the likelihood children to live in better neighborhoods as adults.
+
+> **First paper** to provide quasi-experimental estimates of effect of parental incarceration on children in **US**.
+
+## What is the data used?
+
+Collect 30 years of court records from counties in Ohio and link with many administrative datasets.
+
+Link is done by **name** and either **date** or **year of birth**.
+
+Total sample contains 801,005 randomly assigned cases, representing 462,881 defendants. Sample of parent: 62,571.
+
+
+## What is the identification strategy?
+
+**instrumental variabble**: use the random assignment of judge to case to construct a measure of judge stringency and use it as instrument.
+
+# Kamat et al (2023, WP)
+
+- **Conviction, Incarceration, and Policy Effects in the Criminal Justice System**
+
+## What is the main question?
+
+In this paper, they develop a new framework to analyze settings with **multiple observed
+treatments** and randomly-assigned examiners and estimate the efffects of conviction and incarceration in the US criminal justice system. That is, they seek to understand why conviction and incarceration appear to have opposite
+effects on recidivism, as well as to estimate the effect of comprehensive criminal justice reforms. 
+
+## What is the main result?
+
+They find that the effects of criminal justice contact differ substantially for defendants facing misdemeanor versus more serious felony charges.
+Also, they investigate a series of possible criminal justice reforms and show 
+there is scope for policies to reduce punitiveness while improving public safety. 
+Increasing judges’ leniency in determining guilt for misdemeanor defendants 
+would reduce future crime and involvement with the criminal justice system.
+
+## What is the data used?
+
+Collect administrative court data at individual level. It contains punishment type and sentence
+length, name, date of birth, sex, race, and home address.
+
+They match defendants to future charges by name and date of birth.
+
+## What is the statistical strategy?
+
+Random judge assignment in a IV design.

@@ -1,0 +1,25 @@
+Police Reported Crime: Notes, Definitions & Symbols
+
+Actual Incidents: Incidents are reported based on the most serious crime committed. The result is that an incident can represent more than one crime. Actual incidents refer to instances where police have been able to collect evidence that a crime has actually been committed and is the remainder of reported incidents minus those incidents which proved to be unfounded.
+
+Adults: Individuals aged 18 and older.
+
+Clearance Rate: The total number of incidents cleared by charge or otherwise divided by the total number of actual incidents occurring in a given year. Due to the length of time required to clear some incidents not all incidents cleared are for the current reporting year. It is therefore possible to have a clearance rate of 100% or greater.
+
+Cleared by Charge: Instances where a police investigation of an incident leads to a person being formally charged.
+
+Cleared Otherwise: In some cases the police are unable to formally charge individuals in relation to an incident. This includes cases of diplomatic immunity, the complainant refusing or unable to press charges or the offender dies before they can be formally charged.
+
+Most Serious Offence: In categorizing offences, violent crimes always take precedence over non-violent crimes. For violent crimes a separate incident is recorded for each victim. For non-violent crimes one incident is counted for every distinct occurrence. Robbery is the only exception as it is categorized as a violent crime but only one incident is reported regardless of the number of victims. Therefore total incidents is the sum of the number of victims of violent crimes (excluding robberies) plus the number of non-violent crimes committed plus the number of robberies.
+
+Persons Charged: Persons charged represents the number of people charged as the result of an incident. In some cases an individual can be charged with more than one offence. In this case only the most serious offence is reported.
+
+Rate per 1,000 Population: The rate per 1,000 population is calculated by multiplying the number reported by 1,000 and dividing by the July 1, population for the reporting year.
+
+Regional Statistics: Information at a regional level is determined using statistics reported by RCMP detachments throughout the Northwest Territories. The result is that counts and rates for Yellowknife and the Regional Centers of Hay River, Inuvik & Fort Smith may be slightly higher depending on the other communities that are covered by their particular RCMP detachment. Conversely the counts and rates reported for the Other Communities may be slightly under stated. For example the Yellowknife RCMP detachment is responsible for Detah and the Ingraham Trail and as such not all reported incidents necessarily occurred in Yellowknife.
+
+Symbols:
+
+.. not applicable
+- zero
+Youth: Individuals aged 12 to 17 years of age.
