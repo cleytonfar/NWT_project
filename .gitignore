@@ -59,3 +59,5 @@ rsconnect/
 # R projects file
 *.Rproj
 .Rproj.user/*
+
+README.qmd
